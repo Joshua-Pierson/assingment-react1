@@ -1,10 +1,15 @@
 import React from "react";
 
-export default function Registration({ items }) {
+export default function Registration({ products }) {
     return(
-        <div>
-            {items.map((items, index))}
-        </div>
+        console.log(products),
+        <>
+        <h2>Register Your Favorite Products Below</h2>
+        <ul>
+            <li>{products[0]}</li>
+            <li>{products[1]}</li>
+        </ul>
+        </>
     )
 
 }

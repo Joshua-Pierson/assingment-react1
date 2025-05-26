@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <Registration items={products} />
+      <Registration products={[...products]} />
       <Footer />
     </> 
   );
