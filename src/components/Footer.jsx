@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 
 export default function Footer() {
@@ -6,5 +6,5 @@ export default function Footer() {
     <>
       <p>© 2025 MyShop</p>
     </>
-  );
+  )
 }

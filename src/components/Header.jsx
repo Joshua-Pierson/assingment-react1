@@ -6,6 +6,6 @@ export default function Header() {
     <>
       <h1>Welcome to Product Registration</h1>
     </>
-  );
+  )
 }
 
