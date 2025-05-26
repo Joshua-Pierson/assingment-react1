@@ -8,11 +8,11 @@ function App() {
   const products = ['Laptop', 'Phone'];
 
   return (
-    <div>
+    <>
       <Header />
       <Registration items={products} />
       <Footer />
-    </div> 
+    </> 
   );
 }
 
